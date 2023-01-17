@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Batch">
+    <classes>
+      <class name="batchTest.GetBachallPrograms"/>
+        <class name="batchTest.GetBatchesByBatchName"/>
+          <class name="batchTest.GetBatchesbyID"/>
+            <class name="batchTest.GetbatchesbyProgramId"/>
+              <class name="batchTest.PostBatche"/>
+                <class name="batchTest.UpdateBatchById"/>
+                  <class name="batchTest.DeleteBatchById"/>
+    </classes>
+  </test> 
+  <test name="Program">
+   <classes>
+      <class name="programsTest.GetAllPrograms"/>
+       <class name="programsTest.GetProgramNameByID"/>
+        <class name="programsTest.PostSaveProgram"/>
+         <class name="programsTest.PutByNameRequest"/>
+          <class name="programsTest.PutByProgramID"/>
+           <class name="programsTest.PostSaveProgram"/>
+            <class name="programsTest.DeleteProgrambyID"/>
+             
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-16T13:11:28 EST" name="Default suite" finished-at="2023-01-16T13:11:32 EST" duration-ms="4198">
+    <groups>
+    </groups>
+    <test started-at="2023-01-16T13:11:28 EST" name="Default test" finished-at="2023-01-16T13:11:32 EST" duration-ms="4198">
+      <class name="programsTest.GetAllPrograms">
+        <test-method signature="getallPrograms()[pri:0, instance:programsTest.GetAllPrograms@470734c3]" started-at="2023-01-16T13:11:28 EST" name="getallPrograms" finished-at="2023-01-16T13:11:31 EST" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallPrograms -->
+      </class> <!-- programsTest.GetAllPrograms -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
